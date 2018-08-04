@@ -1,0 +1,46 @@
+
+.home {
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+    height: 100vh;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+._4keu {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    min-height: 112px;
+    position: relative;
+    z-index: 101;
+}
+._4uwq.transparent {
+    background: none;
+    color: #fff;
+}
+._4uwq:not([aria-disabled="true"]) {
+    cursor: pointer;
+}
+._3n07 {
+    left: 0;
+    position: absolute;
+}
+._4uwq {
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0;
+}
+._42ft {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}

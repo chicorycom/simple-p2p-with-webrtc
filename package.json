@@ -1,0 +1,20 @@
+{
+  "name": "chicorycom-p2p-with-webrtc",
+  "version": "1.0.0",
+  "description": "Votre Intégrateur Réseau système et Sécurité",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js",
+    "signalhub": "signalhub listen -p 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^11.2.0"
+  },
+  "dependencies": {
+    "signalhub": "^4.9.0",
+    "webrtc-swarm": "^2.9.0"
+  }
+}
